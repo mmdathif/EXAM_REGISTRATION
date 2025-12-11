@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.head .title{
+   text-align: center;
+   padding: 10px;
+   height: 15px;
+   background-color: bisque;
+   
+
+}
+
+.points{
+  padding: 10px;
+  background-color: beige;
+}
+
+.points .list {
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  z-index: 1000;
+}
+
+
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: darkgrey;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 10px;
+  border: 2px;
+  border-style: solid;
+  margin-left: 40%;
+  transition: width 1s linear 100ms;
+}
+
+.box:hover { 
+  width: 170px;       
+}
+
